@@ -1,24 +1,30 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture|Gloria+Hallelujah|Play');
+
+body{
+  background-image: url(http://dewdahmagic.com/dd/wp-content/uploads/2012/10/curtain-bg-01.jpg);
+}
+
+h1{
+  color: white;
+  margin: auto 0;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  
+}
+
+h2{
+  color: white;
+  margin: auto 0;
+  font-family: 'Play', sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+main{
+  text-align: center;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+p{
+  font-family: 'Gloria Hallelujah', cursive;
   color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
