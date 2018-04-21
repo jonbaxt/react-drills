@@ -2,23 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+  background-image: url(https://www.lakeohara.com/drive/uploads/2014/06/20140731_0053.jpg);
+
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+#compBox{
+  width: 80%;
+  background-color: cornsilk;
+  border: black solid 2px;
+  margin: auto;
+  padding-top: 15px;
 }
+#text-box{
+  position: center;
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
