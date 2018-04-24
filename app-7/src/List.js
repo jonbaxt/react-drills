@@ -14,3 +14,4 @@ export default function List(props){
         </div>
       )
 }
+// Need to focus more on how to construct this, since this is where prop is created and passed around next time.
