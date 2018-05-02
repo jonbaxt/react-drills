@@ -1,8 +1,27 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+
 import logo from './logo.svg';
 import './App.css';
 
+
 class App extends Component {
+  constructor(){
+    super()
+    this.state = {
+      data: []
+    }
+  }
+  
+  componentDidMount(){
+    
+    // axios.get(`https://anapioficeandfire.com/api/characters`)
+    // axios.get(`https://swapi.co/api/people`)
+    axios.get(`http://pokeapi.co/api/v2/pokemon/1`)
+    .then( (ret) => {
+      console.log(ret)
+    })
+  }
   render() {
     return (
       <div className="App">
