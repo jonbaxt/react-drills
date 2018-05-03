@@ -17,7 +17,7 @@ class App extends Component {
     
     // axios.get(`https://anapioficeandfire.com/api/characters`)
     // axios.get(`https://swapi.co/api/people`)
-    axios.get(`http://pokeapi.co/api/v2/pokemon/1`)
+    axios.get(`/api/pokemon/` + 25)
     .then( (ret) => {
       console.log(ret)
     })
